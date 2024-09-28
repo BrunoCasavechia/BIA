@@ -1,0 +1,1 @@
+import styles from '../Main/Main.module.css'
