@@ -1,0 +1,51 @@
+/* Estiliza o Header da pagina */
+.header_principal {
+    text-transform: uppercase;
+    background-color: #1e1e1e;
+    padding: 30px;
+    letter-spacing: 10px;
+}
+
+/* Remove a margem padrão que o h1 insere */
+.header_principal h1 {
+    margin: 0px;
+    color: yellow;
+}
+
+/* Estiliza tudo que faz parte do menu de navegação */
+.menu_pesquisa {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    padding: 8px 0px;
+    align-items: center;
+    background-color: #ccc;
+    border: 2px solid black;
+}
+
+/* Estiliza o tamanho da logo */
+.menu_pesquisa img{
+    width: 100px;
+}
+
+/* Estilo do input */
+.barra_pesquisa input {
+    font-size: 30px;
+    width: 600px;
+    height: 60px;
+    border: none;
+}
+
+/* Estilo do botão da barra de pesquisa*/
+.barra_pesquisa button {
+    background-color: yellow; 
+    color: black; 
+    cursor: pointer;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 50px;
+    border: none;
+}
+
+
