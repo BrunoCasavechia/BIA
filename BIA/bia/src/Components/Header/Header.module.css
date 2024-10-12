@@ -4,48 +4,87 @@
     background-color: #1e1e1e;
     padding: 30px;
     letter-spacing: 10px;
+    text-align: center;
 }
 
 /* Remove a margem padrão que o h1 insere */
 .header_principal h1 {
     margin: 0px;
-    color: yellow;
+    color: gold;
 }
 
-/* Estiliza tudo que faz parte do menu de navegação */
+.menu_navegacao {
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.menu_navegacao ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 50px;
+    margin: 0px;
+}
+
+.menu_navegacao a{
+    text-decoration: none;
+    color: gold;
+    font-size: 20px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+/* Estiliza o conteudo da barra de pesquisa + logo por inteiro */
 .menu_pesquisa {
     display: flex;
-    justify-content: space-around;
-    border: 2px solid black;
-    padding: 8px 0px;
     align-items: center;
-    background-color: #ccc;
-    border: 2px solid black;
-}
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  /* Estiliza o logo da empresa */
+  .menu_pesquisa img{
+    width: 5%;
+    margin-right: 30px;
+  }
+  
+  /* Estiliza a barra de pesquisa */
+  .barra_pesquisa {
+      /* O display flex está dentro dessa barra por alinhar como row o texto do placeholder com o desenho do botão */
+      display: flex;
+      align-items: center;
+      border: 2px solid #003a79;
+      border-radius: 12px;
+      height: 60px;
+      width: 620px;
+      background-color: white;
+    }
+  
+    /* Estilo do input */
+    .barra_pesquisa input {
+      border: none;
+      font-size: 30px;
+      width: 600px;
+    }
+    
+    /* Estilo do botão da barra de pesquisa*/
+  
+    .barra_pesquisa button {
+      background-color: #000000; 
+      color: white; 
+      border: none;
+      padding: 20px 25px;
+      cursor: pointer;
+      height: 100%;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
 
-/* Estiliza o tamanho da logo */
-.menu_pesquisa img{
-    width: 100px;
-}
-
-/* Estilo do input */
-.barra_pesquisa input {
-    font-size: 30px;
-    width: 600px;
-    height: 60px;
-    border: none;
-}
-
-/* Estilo do botão da barra de pesquisa*/
-.barra_pesquisa button {
-    background-color: yellow; 
-    color: black; 
-    cursor: pointer;
-    align-items: center;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    width: 50px;
-    border: none;
-}
+    /* Estiliza o focus da barra de pesquisa */
+    .barra_pesquisa input:focus{
+    outline: none; /*Tira a borda padrao que o input insere */
+    }
 
 
