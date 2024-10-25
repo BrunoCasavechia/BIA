@@ -1,3 +1,10 @@
 .footer {
     background-color: #ccc;
+    text-align: center;
+    margin-top: 28%;
+    margin-bottom: 0px;
+}
+
+.footer h1 {
+    margin-bottom: 0px;
 }

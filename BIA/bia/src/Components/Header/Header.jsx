@@ -22,10 +22,10 @@ const Header = () => {
                 <div className={styles.menu_navegacao}>
                     <nav>
                         <ul>
-                        <li><Link to="/">Início</Link></li>
-  <li><Link to="/SobreNos">Sobre nós</Link></li>
-  <li><Link to="/Contato">Contato</Link></li>
-  <li><Link to="/FAQ">FAQ</Link></li>
+                            <li><Link to="/">Início</Link></li>
+                            <li><Link to="/SobreNos">Sobre nós</Link></li>
+                            <li><Link to="/Contato">Contato</Link></li>
+                            <li><Link to="/FAQ">FAQ</Link></li>
                         </ul>
                     </nav>
                 </div>

@@ -1,5 +1,6 @@
 // Components
 import Header from './Components/Header/Header';
+import Footer from './Components/Footer/Footer';
 
 // Styles / CSS
 import './App.css';
@@ -30,6 +31,8 @@ function App() {
           <Route path="/FAQ" element={<Faq />} />
         </Routes>
       </div>
+
+      <Footer/>
     </BrowserRouter>
   );
 }
